@@ -1,0 +1,114 @@
+@import "../../app/theme/theme.scss";
+
+.top__creators {
+    margin-top: 160px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+
+        &__text {
+            color: $white;
+        }
+
+        &__button {
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 247px;
+            height: 60px;
+            column-gap: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            font-family: 'Space Mono', monospace;
+            color: $white;
+            border: 2px solid $purple;
+            position: relative;
+            top: 30px
+        }
+    }
+
+    &__title {
+        color: $white;
+        font-weight: 600;
+        font-family: 'Space Mono', monospace;
+        font-size: 38px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+
+    &__about {
+        color: $white;
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        margin-bottom: 60px;
+    }
+
+    &__card__wrapper {
+        max-width: 240px;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px
+    }
+    &__card {
+        display: grid;
+        border-radius: 20px;
+        padding: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 240px));
+        background-color: $lighter-gray;
+
+        &__image {
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__title {
+            color: $white;
+            font-family: 'Space Mono', monospace;
+            font-weight: 600;
+            font-size: 22px;
+            text-align: center;
+            line-height: 140%;
+        }
+        &__about {
+            display: flex;
+           column-gap: 12px;
+           justify-content: center;
+        }
+    }
+    &__total {
+        font-weight: 400;
+font-size: 16px;
+font-family: 'Space Mono', monospace;
+line-height: 140%;
+color: $label-gray;
+    }
+    &__eth {
+        font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: $white;
+font-family: 'Space Mono', monospace;
+    }
+}
+
+/*
+.card__wrapper {
+    max-width: 740px;
+    margin: 0 auto;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 740px));
+    background-color: red;
+}
+
+*/

@@ -1,0 +1,39 @@
+@import "../../app/theme/theme.scss";
+
+.browse__categories {
+    margin-top: 160px;
+
+    &__title {
+        color: $white ;
+        font-family: 'Space Mono', monospace;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        margin-bottom: 60px;
+    }
+
+    &__card__wrapper {
+        max-width: 240px;
+    }
+&__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px
+}
+    &__card {
+        height: 316px;
+        background-color: $call-to-action;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0px, 240px));
+        border-radius: 20px;
+
+        &__text__content {
+            padding: 20px 30px 25px 30px;
+            color: $white;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            font-family: 'Space Mono', monospace;
+        }
+    }
+}

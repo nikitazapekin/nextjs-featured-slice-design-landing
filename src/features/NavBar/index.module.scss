@@ -1,0 +1,74 @@
+@import "../../app/theme/theme.scss";
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: $white;
+        &__text {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 21px;
+            letter-spacing: 1.7px;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+      //  background-color: orange;
+     //   column-gap: 10px;
+     column-gap: 50px;
+        &__button {
+         //   flex: 1 1 152px;
+         width: 152px;
+            padding: 0 30px;
+          //  width: 100%;
+            background-color: $purple;
+            border-radius: 20px;
+            color: $white;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 12px;
+        &__button__text {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 16px;
+            
+        }
+    }
+}
+
+}
+.navbar__sign_up {
+       flex: 1 1 152px;
+     width: 152px;
+     padding: 0 30px;
+     flex-wrap: nowrap;
+     white-space: nowrap;
+   //  width: 100%;
+     background-color: $purple;
+     border-radius: 20px;
+     color: $white;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     column-gap: 12px;
+}
+.navigation__wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+.navbar__navigation__button__text {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+}

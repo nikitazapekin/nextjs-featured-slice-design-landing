@@ -1,0 +1,39 @@
+@import "../../app/theme/theme.scss";
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    &__title {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        color: $white;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 10px;
+    }
+
+    &__about {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: $white;
+        font-family: 'Space Mono', monospace;
+    }
+
+    &__button {
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $purple;
+        border-radius: 20px;
+        width: 187px;
+        height: 60px;
+        column-gap: 12px;
+        cursor: pointer;
+        color: $white;
+        position: relative;
+        top: 30px
+    }
+}

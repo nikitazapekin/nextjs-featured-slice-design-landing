@@ -35,10 +35,7 @@ export default function Home() {
   return (
    <div>
  
-fewew
-<div
- //className={styles.test}
- ></div>
+Homepage
  
    </div>
   );

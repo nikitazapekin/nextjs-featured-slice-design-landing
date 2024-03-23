@@ -1,0 +1,12 @@
+@import "../../../app/theme/theme.scss";
+.navbar__navigation__button {
+color: $white;
+white-space: nowrap;
+font-family: "Space Mono", sans-serif;
+font-weight: 600;
+//width: 174px;
+//background-color: orange;
+text-align: center;
+letter-spacing: 0.8px;
+//flex: 0 0 174px;
+}
