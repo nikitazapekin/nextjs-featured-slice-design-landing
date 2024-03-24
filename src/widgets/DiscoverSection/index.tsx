@@ -8,7 +8,6 @@ const DiscoverSection = () => {
         <section className="discover">
             <div className="container__min">
                 <div className="discover__content">
-
                     <div className="discover__left">
                         <div className="discover__left__content">
                             <div className="discover__left__title">
@@ -23,7 +22,6 @@ const DiscoverSection = () => {
                                     Get Statred
                                 </p>
                             </div>
-
                             <div className="discover__plus">
                                 <div className="discover__plus__element">
                                     <p className="discover__plus__element__title">

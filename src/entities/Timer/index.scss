@@ -1,0 +1,38 @@
+@import "../../app/theme/theme.scss";
+
+.timer {
+    border-radius: 20px;
+    padding: 30px;
+    width: 295px;
+    height: 147px;
+    backdrop-filter: blur(10px);
+    background: rgba(59, 59, 59, 0.5);
+
+    &__title {
+        color: $white;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 10px;
+    }
+
+    &__time {
+        display: flex;
+        column-gap: 10px;
+        &__title {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 120%;
+            font-family: 'Space Mono', monospace;
+            color: $white;
+        }
+        &__subtitle {
+            font-family: 'Space Mono', monospace;
+            color: $white;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 110%;
+        }
+    }
+}

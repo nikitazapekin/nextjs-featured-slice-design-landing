@@ -1,0 +1,51 @@
+@import "../../app/theme/theme.scss";
+
+.magic__mushrooms {
+    position: relative;
+    margin-top: 80px;
+    height: 640px;
+    width: 100%;
+    display: flex;
+ 
+    align-items: flex-end;
+ 
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 60px;
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      
+    }
+  
+    &__title {
+        color: $white;
+        font-weight: 600;
+        font-size: 51px;
+        position: relative;
+        z-index: 111;
+        line-height: 110%;
+        font-family: 'Space Mono', monospace;
+
+    }
+
+}
+
+.magic__mushrooms__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+    object-position: center;
+}
+
+.magic__mushrooms__gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(0deg, $purple, transparent);
+}

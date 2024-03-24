@@ -1,17 +1,8 @@
 @import "../../app/theme/theme.scss";
-.discover__more__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-}
-/*
+
+
 .discover__more {
-    &__cards {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 30px;
-    }
-    &__card__wrapper {
+ &__card__wrapper {
         max-width: 330px;
     }
 
@@ -87,5 +78,5 @@
             }
         }
     }
+
 }
-*/

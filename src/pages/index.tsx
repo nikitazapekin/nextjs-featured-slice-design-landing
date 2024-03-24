@@ -1,6 +1,5 @@
 
 import Head from 'next/head';
-
 import type { GetStaticProps } from 'next';
 import { Header } from '@/widgets/Header';
 import "./test.scss"
@@ -10,11 +9,15 @@ import TrendingCollection from '@/widgets/TrendingCollection/TrendingCollection'
 import TopCreators from '@/widgets/TopCreators';
 import BrowseCategories from '@/widgets/BrowseCategories';
 import DiscoverMoreNfts from '@/widgets/MoreNfts';
+import MagicMushrooms from '@/widgets/MagicMushrooms';
+import HowItWorks from '@/widgets/HowItWorks';
+import JoinDigest from '@/widgets/JoinDigest';
+import Footer from '@/widgets/Footer';
 interface HomePageProps {
-	
+
 }
 const HomePage = ({
-	
+
 }: HomePageProps) => {
 	return (
 		<>
@@ -23,22 +26,23 @@ const HomePage = ({
 				<title>Home </title>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</Head>
-		<Header /> 
-		<DiscoverSection />
-		<TrendingCollection />
-		<TopCreators />
-		<BrowseCategories />
-		<DiscoverMoreNfts />
-		 
-		{/*
-	*/}
+			<Header />
+			<DiscoverSection />
+			<TrendingCollection />
+			<TopCreators />
+			<BrowseCategories />
+			<DiscoverMoreNfts />
+			<MagicMushrooms />
+			<HowItWorks />
+			<JoinDigest />
+			<Footer />
 		</>
 	);
 };
 
 export default HomePage;
 
- //f618e3d6ad3833abcd8ce1bfaa8cd8248c2a254f
+//f618e3d6ad3833abcd8ce1bfaa8cd8248c2a254f
 
 
 //https://www.figma.com/file/oVxRcV8M2sLcNqd5epk16k/ojjo-%2B?type=design&node-id=0%3A1&mode=design&t=6lb4VXIFZgGRCF6Z-1 ювелирка

@@ -1,0 +1,23 @@
+@import "../../../app/theme/theme.scss";
+
+.user__btn {
+
+    border-radius: 20px;
+    width: 151px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    position: relative;
+    z-index: 111;
+    background-color: $black;
+
+    &__username {
+        color: $white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        font-family: 'Space Mono', monospace;
+    }
+}

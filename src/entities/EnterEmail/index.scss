@@ -1,0 +1,52 @@
+@import "../../app/theme/theme.scss";
+
+.enter__email {
+    display: flex;
+    column-gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 425px));
+    background-color: $white;
+    height: 60px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 20px;
+
+    &__input {
+        width: 100%;
+        height: 60px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        color: $black;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    &__button {
+        background-color: $purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: auto;
+        min-width: 211px;
+        height: 60px;
+        position: relative;
+        column-gap: 12px;
+        cursor: pointer;
+        &__text {
+            color: $white;
+            font-family: 'Space Mono', monospace;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+        }
+    }
+}
+.enter__email__wrapper {
+    max-width: 425px;
+
+}

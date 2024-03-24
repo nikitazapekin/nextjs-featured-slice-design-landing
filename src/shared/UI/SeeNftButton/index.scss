@@ -1,0 +1,23 @@
+//@import "../../app/theme/theme.scss";
+@import "../../../app/theme/theme.scss";
+.see__nft__btn {
+    border-radius: 20px;
+    width: 198px;
+    height: 60px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    position: relative;
+    z-index: 111;
+
+    &__text {
+        color: $black;
+        font-family: 'Space Mono', monospace;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+    }
+}

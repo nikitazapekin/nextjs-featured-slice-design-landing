@@ -1,0 +1,26 @@
+@import "../../app/theme/theme.scss";
+
+.how__it__works {
+    margin-top: 80px;
+    &__title {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        color: $white;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 10px;
+    }
+    &__about {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: $white;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 58px;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+}

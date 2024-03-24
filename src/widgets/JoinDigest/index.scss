@@ -1,0 +1,37 @@
+@import "../../app/theme/theme.scss";
+
+.join__digest {
+    margin-top: 120px;
+
+    &__content {
+        background-color: $lighter-gray;
+        border-radius: 20px;
+        padding: 60px;
+        display: flex;
+        column-gap: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__form {
+        height: 310px;
+        &__title {
+            color: $white;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+            margin-top: 15px;
+            font-family: 'Space Mono', monospace;
+            margin-bottom: 15px;
+        }
+
+        &__about {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+            color: $white;
+            font-family: 'Space Mono', monospace;
+        }
+    }
+
+}
